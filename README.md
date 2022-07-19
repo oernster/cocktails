@@ -1,6 +1,22 @@
 # cocktails
 A command line API to discover cocktails you can make from your stock using TheCocktailDB.com API
 
+# To run
+
+Clone repo
+
+Install virtualenv
+
+Enter command: virtualenv venv
+
+Enter command: source venv/bin/activate (or windows variant if on windows)
+
+Enter command: pip install -r requirements.txt
+
+Enter command: python main.py
+
+Note: Tests not written as I didn't have time in the 1h timebox.
+
 # Acceptance Criteria
 • Input: The application can be invoked with a comma separated list of ingredients the user currently has in stock.
 
